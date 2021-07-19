@@ -39,16 +39,18 @@
 
 .header{
   background: var(--linear);
+  height: 12.5rem;
+}
 
+.header .header-text {
+  font-family: Inter-Regular;
   color: var(--white);
 
-  font-family: Inter-Regular;
-
   display: flex;
-  /*Horizontamente*/
   justify-content: space-between;
-  /* Verticalmente */
   align-items: center;
+
+  padding: 3rem 1.25rem 8.0625rem ;
 }
 
 .card {
@@ -61,11 +63,11 @@
   border-radius: 0.625rem;
 }
 
-.card .title-h2 {
-  color: var(--title);
-  font-family: LexendDeca-Regular;
+.card .date-icon {
+  display: flex;
+  justify-content: space-between;
 
-  font-size: 1.125rem;
+  padding: 1rem 0.9375rem 1.6875rem 0.9375rem;
 }
 
 .card .date {
@@ -75,9 +77,19 @@
   font-size: 0.875rem;
 }
 
+.card .title-h2 {
+  color: var(--title);
+  font-family: LexendDeca-Regular;
+
+  font-size: 1.125rem;
+  padding: 1.6875rem 1rem 0.5625rem 1rem;
+}
+
 .card .conteudo{
   color: var(--text);
   font-family: Inter-Regular;
 
   font-size: 0.875rem;
+
+  padding: 0.5625rem 0.75rem 0.9375rem 1.0625rem;
 }
