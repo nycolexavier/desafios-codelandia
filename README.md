@@ -1,5 +1,4 @@
-![bannerDoZeroAoDataScience](https://user-images.githubusercontent.com/74930052/125880985-bfd8e135-f6b6-4431-ba52-bd93037a7bb4.png)
-
+![banner-desafios](https://user-images.githubusercontent.com/74930052/126198768-36ed96e2-3dfd-490b-ba7f-39267c635c42.png)
 ---
 <img src="https://img.shields.io/static/v1?label=Status&message=incomplete&color=ff0000&style=for-the-badge&logo=ghost"/>
 
