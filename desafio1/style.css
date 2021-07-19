@@ -1,3 +1,18 @@
+@font-face {
+  font-family: Inter-Medium;
+  src: url(/desafio1/desafio1/fontes/Inter-Medium.ttf)
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url(/desafio1/desafio1/fontes/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: LexendDeca-Regular;
+  src: url(/desafio1/desafio1/fontes/LexendDeca-Regular.ttf);
+}
+
 /* ========== RESET ==========*/
 * {
   margin: 0;
@@ -18,33 +33,51 @@
 }
 
 /* === BASE === */
+.body {
+  background: #F3F5F7;
+}
+
 .header{
   background: var(--linear);
 
   color: var(--white);
 
+  font-family: Inter-Regular;
+
   display: flex;
   /*Horizontamente*/
   justify-content: space-between;
-
   /* Verticalmente */
   align-items: center;
 }
 
 .card {
-  background:var(--blue);
+  background:var(--white);
 
   margin: 3.125rem 1.25rem 1.5625rem 1.25rem;
+
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+
+  border-radius: 0.625rem;
 }
 
 .card .title-h2 {
-  color: red;
+  color: var(--title);
+  font-family: LexendDeca-Regular;
+
+  font-size: 1.125rem;
 }
 
 .card .date {
   color: var(--text);
+  font-family: Inter-Regular;
+
+  font-size: 0.875rem;
 }
 
 .card .conteudo{
-  color: chartreuse;
+  color: var(--text);
+  font-family: Inter-Regular;
+
+  font-size: 0.875rem;
 }
