@@ -13,7 +13,7 @@
 </p>
 
 ### Objetivo
-Nesse repositório guardo todas as anotações, materiais e as resoluções dos artigos que foram propostas na comunidadee. 
+Nesse repositório guardo todas as anotações, materiais e as resoluções dos artigos que foram propostas na comunidade. 
 
 ### Features
 
