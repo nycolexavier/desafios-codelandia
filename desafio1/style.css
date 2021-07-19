@@ -15,20 +15,36 @@
   --text: #B6B6B6;
   
   --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
-
-  /* FONTS */
-  --title-font: 'Inter', sans-serif;
-
-  /* size */
-  --title-font-size: 1.125rem
 }
 
 /* === BASE === */
-body{
-  font: 400 1rem var(--title-font);
+.header{
+  background: var(--linear);
+
+  color: var(--white);
+
+  display: flex;
+  /*Horizontamente*/
+  justify-content: space-between;
+
+  /* Verticalmente */
+  align-items: center;
 }
 
-.card .title {
-  font: 700 var(--title-font-size);
-  color: var(--title);
+.card {
+  background:var(--blue);
+
+  margin: 3.125rem 1.25rem 1.5625rem 1.25rem;
+}
+
+.card .title-h2 {
+  color: red;
+}
+
+.card .date {
+  color: var(--text);
+}
+
+.card .conteudo{
+  color: chartreuse;
 }
