@@ -65,3 +65,18 @@ button:focus,
 input:focus {
   border: 0;
 }
+
+.header .promocao {
+  background: black;
+  color: #fff;
+}
+
+.header .nome {
+  color:black;
+  background: #fff;
+}
+
+.header .title-h1 {
+  background: #ebe9ea;
+}
+
