@@ -42,15 +42,21 @@
   height: 12.5rem;
 }
 
-.header .header-text {
-  font-family: Inter-Regular;
+.header .section {
+  padding: 3rem 1.25rem;
+}
+
+.header .container-h1 {
   color: var(--white);
+  font-family: Inter-Regular;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
 
-  padding: 3rem 1.25rem 8.0625rem ;
+.header .input {
+  padding: 4rem 1.25rem 4rem 1.25rem;
 }
 
 .card {
