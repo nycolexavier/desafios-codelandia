@@ -68,7 +68,7 @@ input:focus {
 
 .header .promocao {
   background: black;
-  color: #fff;
+  color: #fff;                                                                                                     
 }
 
 .header .nome {
@@ -79,4 +79,5 @@ input:focus {
 .header .title-h1 {
   background: #ebe9ea;
 }
+
 

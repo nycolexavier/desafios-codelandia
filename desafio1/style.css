@@ -54,9 +54,23 @@
   align-items: center;
 }
 
-.header .input {
+.header .div-input {
   padding: 1rem 1.25rem;
   margin: 3rem 1.25rem;
+  background: transparent;
+  border-radius: 15px;
+  border: 0;
+  outline: 0;
+  color: #fff;
+}
+
+.header .div-input .input {
+  background: transparent;
+  width: calc(100% - 48px);
+  border: none;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
 }
 
 /*background: transparent;
