@@ -124,6 +124,11 @@ input::placeholder{
   font-family: Inter-Regular;
 
   font-size: 0.875rem;
-
+ 
   padding: 0.5625rem 0.75rem 0.9375rem 1.0625rem;
+}
+
+/*MEDIA QUERIES*/
+@media (min-width: 992px) {
+
 }
