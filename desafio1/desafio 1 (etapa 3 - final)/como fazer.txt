@@ -12,7 +12,7 @@ Link da bibiblioteca JS => https://scrollrevealjs.org/
 Para adicionar a animação é bem simples!
 
 Cole no final do seu arquivo index.html (antes do fechamento do html e body) o script abaixo:
-<script src="https://unpkg.com/scrollreveal"></script>
+script src="https://unpkg.com/scrollreveal"></s<cript>
 
 *Temos o exemplo dele no arquivo exemplo0.png*
 
