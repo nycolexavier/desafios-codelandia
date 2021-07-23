@@ -30,11 +30,6 @@
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
 
 .promotion {
   background: black;
@@ -57,7 +52,27 @@ img {
 
 .box-header {
   background-image: url(desafio2Materias/img/wallpaper.jpeg);
+  height: 25.875rem;
+
+  color: var(--white);
+
+  text-align: center;
 
 }
 
 
+h2 {
+  font-family: Montserrat-SemiBold;
+  text-align: center;
+}
+
+p {
+  font-family: Montserrat-Medium;
+}
+
+footer {
+  background: black;
+  color: var(--white);
+  font-family: Montserrat-Medium;
+  text-align: center;
+}
