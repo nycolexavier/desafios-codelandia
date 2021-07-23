@@ -13,11 +13,11 @@
 </p>
 
 ### Objetivo
-Nesse repositório guardo todas as anotações, materiais e as resoluções dos artigos que foram propostas na comunidade. 
+Nesse repositório guardo todas as anotações, materiais e as resoluções dos desafios que foram propostas na comunidade. 
 
 ### Features
 
-- [ ] Desafio 01
+- [X] Desafio 01
 - [ ] Desafio 02
 - [ ] Desafio 03
 

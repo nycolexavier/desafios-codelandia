@@ -127,5 +127,7 @@ input::placeholder{
 
 /*MEDIA QUERIES*/
 @media (min-width: 992px) {
-
+  .search-box {
+    width: 50rem;
+  }
 }
