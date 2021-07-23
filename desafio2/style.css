@@ -1,14 +1,14 @@
 @font-face {
-  font-family: Monteserrat Bold;
+  font-family: Montserrat-Bold;
   src: url(desafio2Materias/fontes/Montserrat-Bold.ttf);
 }
 
 @font-face {
-  font-family: Montserrat Medium;
+  font-family: Montserrat-Medium;
   src: url(desafio2Materias/fontes/Montserrat-Medium.ttf);
 }
 @font-face {
-  font-family: Monteserrat SemiBold;
+  font-family: Montserrat-SemiBold;
   src: url(desafio2Materias/fontes/Montserrat-SemiBold.ttf);
 }
 
@@ -36,27 +36,28 @@ img {
   display: block;
 }
 
-.promocao {
+.promotion {
   background: black;
   height: 3.75rem;
   color:#fff; 
-  text-align: center;              
+  text-align: center;
+  
+  font-family: Montserrat-Medium;
 }
 
-p {
-  padding: 0.9375rem 3.5625rem 0.875rem 3.625rem;
-}
 
-.nome {
+.name {
   color:black;
   background: #fff;
+
+  font-family: Montserrat-SemiBold;
+  height: 3.75rem;
+  text-align: center;
 }
 
-title-h1 {
-  background: #ebe9ea;
-}
-
-img {
+.box-header {
+  background-image: url(desafio2Materias/img/wallpaper.jpeg);
 
 }
+
 
