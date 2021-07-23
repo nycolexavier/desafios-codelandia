@@ -29,55 +29,34 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  font-size: 62.5%;
-}
-body {
-  font-size: 1.6rem;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-ul,
-ol {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-a {
-  text-decoration: none;
-}
+
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
-button,
-input {
-  border: 0;
-}
-button:focus,
-input:focus {
-  border: 0;
-}
 
-.header .promocao {
+.promocao {
   background: black;
-  color: #fff;                                                                                                     
+  height: 3.75rem;
+  color:#fff; 
+  text-align: center;              
 }
 
-.header .nome {
+p {
+  padding: 0.9375rem 3.5625rem 0.875rem 3.625rem;
+}
+
+.nome {
   color:black;
   background: #fff;
 }
 
-.header .title-h1 {
+title-h1 {
   background: #ebe9ea;
 }
 
+img {
+
+}
 
