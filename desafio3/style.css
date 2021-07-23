@@ -63,7 +63,8 @@ img {
 .card {
     height: 36.4375rem;
 
-    padding: 4.6875rem 1.25rem 1.875rem 1.25rem;
+    margin: 4.9375rem 1.25rem 1.625rem 1.1875rem;
+
 
     background: rgb(172, 221, 124);
 }
