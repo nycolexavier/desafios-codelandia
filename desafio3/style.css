@@ -1,3 +1,19 @@
+@font-face {
+    font-family: Lato-Regular;
+    src: url(desafio3Materiais/fontes/Lato-Regular);
+}
+
+@font-face {
+    font-family: Merriweather-Bold;
+    src: url(desafio3Materiais/fontes/Merriweather-Bold.ttf)
+}
+
+@font-face {
+    font-family: Merriweather-Regular;
+    src: url(desafio3Materiais/fontes/Merriweather-Regular.ttf);
+}
+
+
 /*Variáveis*/
 :root {
     --bgSite: #d7d4ff;
@@ -17,6 +33,58 @@
 
 header {
     background: #9c63ff;
+}
+
+h1 {
+    padding: 3.4375rem 1.25rem 1.125rem 1.25rem;
+}
+
+.button {
+    background: var(--bgSite);
+
+    width: 9.6875rem;
+    height: 3.125rem;
+
+    margin-right:  14.9375rem;
+    margin-left: 1.25rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.25rem;
+    font-family: Merriweather-Bold;
+}
+
+img {
+    
+}
+
+.card {
+    height: 36.4375rem;
+
+    padding: 4.6875rem 1.25rem 1.875rem 1.25rem;
+
+    background: rgb(172, 221, 124);
+}
+
+.color {
+    height: 23.4375rem;
+    background: indigo;
+}
+
+.card .container-text h2  {
+    font-family: Merriweather-Regular;
+}
+
+.card .container-text p {
+    font-family: sans-serif;
+}
+
+header p {
+    padding-right: 1.25rem;
+    padding-bottom: 2rem;
+    padding-left: 1.25rem;
 }
 
 main {
