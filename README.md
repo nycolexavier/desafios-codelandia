@@ -20,6 +20,7 @@ Nesse repositório guardo todas as anotações, materiais e as resoluções dos 
 - [X] Desafio 01
 - [ ] Desafio 02
 - [ ] Desafio 03
+- [ ] Desafio 04
 
 ### Tecnologias
 
