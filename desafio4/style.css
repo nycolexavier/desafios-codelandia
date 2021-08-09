@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Lato-Bold;
+    src: url(materiais/fontes/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(materiais/fontes/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Merriweather-Regular;
+    src: url(materiais/fontes/Merriweather-Regular.ttf);
+}
+
+/*Variáveis*/
+:root {
+    --green: #04c35c;
+    --blue: #2b6cb0;
+  
+    --white: #ffffff;
+    --white300: #f7fafc;
+  
+    --dark: #1a202c;
+    --input: #e8e8e8;
+  }
+  
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 4.4375rem  5rem 2.4375rem 2rem;
+}
+
+h1 {
+    font-family: Merriweather-Regular;
+    font-size: 1rem;
+}
+
+header p {
+    font-family: Lato-Bold;
+    font-size: 1.625rem;
+}
+
+main {
+    background: crimson;
+    margin: 0rem 1.0625rem 8.625rem 2.125rem;
+}
+
+main h2 {
+    font-size: 1rem;
+    font-family: Lato-Regular;
+}
